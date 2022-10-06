@@ -1,7 +1,7 @@
 {
   "name": "vscode-stting",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- 오브 젝트와 레퍼런스 형태가 아닌 실제값을 저장하는 자료형 -->",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,13 @@
   },
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwa1822/TypeScript-Exam-1-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qwa1822/TypeScript-Exam-1-/issues"
+  },
+  "homepage": "https://github.com/qwa1822/TypeScript-Exam-1-#readme"
 }
