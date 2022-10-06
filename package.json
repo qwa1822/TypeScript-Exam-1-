@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.0.21",
     "lodash": "^4.17.21",
     "parcel-bundler": "^1.12.5",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }

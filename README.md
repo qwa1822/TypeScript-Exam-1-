@@ -50,3 +50,78 @@
 - 무언가가 아예 준비가 안된 상태
 - Object의 property가 없을 때도 undefined 입니다.
 - 런타임에서 typeof 연산자를 이용해서 알아내면, undefined 입니다.
+
+### Obejct
+
+- a type that reperesents the non-primitive type
+  -"primitive type 이 아닌 것" 을 나타내고 싶을 때 사용하는 타입
+
+### non-primitive type
+
+-not number,string,boolean
+
+### Array
+
+- 같은 타입의 요소들을 모아 놓는 것
+- 원래 자바스크립트에서 array는 객체입니다.
+- 사용방법
+  -Array<타입> -타입[]
+  // let list:number[]=[1,2,3];
+  // let list:Array<number>=[1,2,3]
+  let list:(number | string)[]=[1,2,3,"4"];
+
+### tuple
+
+let x: [string, number];
+
+x = ["hello", 39];
+
+// x=[10,"Mark"]/
+
+const person:[string,number]= ["Mark",39];
+
+const [first,second] =person;
+
+### any
+
+function returnAny(message: any): any{
+console.log(message);
+
+}
+
+const any1=returnAny('리턴은 아무거나');
+any1.toString();
+
+let looselyTyped: any={};
+
+const d=looselyTyped.a.b.c.d;
+
+### Unknown
+
+-응용 프로그램을 작성할 떄 모르는 변수의 타입을 묘사해야 할 수도 있습니다. -이러한 값은 동적콘텐츠 -이경우 ,컴파일러와 미래의 코드를 읽는 사람에게 이변수가 무엇이든 될 수 있음을 알려주기를 원하므로 unknown타입을 제공
+
+### never
+
+-return에 사용
+-never타입은 모든타입의 subtype이며, 모든타입에 할당 할 수있습니다. -하지만 never에는 그 어떤것도 할당할 수 없습니다.
+-any조차도 never에게도 할당 할 수 없습니다.
+
+### 타입시스템
+
+-컴파일러에게 사용하는 탕입을 ㅁ여시
+
+### 타입스크립트의 타입 시스템
+
+-타입을 명시적으로 지정 -타입을 명시적으로 지정하지않으면, -
+컴파일러가 자동으로 타입을 추론
+-SstrictNullChecks 옵션을 키면
+모든타입에 자동으로 포함되어 있는 'null'과 'undefined'
+
+### structural type system-구조가 같으면, 같은 타입이다
+
+### 타입 별칭(별명)
+
+- Interface 랑 비슷해 보입니다.
+- Primitive, Union Type, Tuple, Function
+- 기타 직접 작성해야하는 타입을 다른 이름을 지정할 수 있습니다.
+- 만들어진 타입의 refer로 사용하는 것이지 타입을 만드는것은 아닙니다.
