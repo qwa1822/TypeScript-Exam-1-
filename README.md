@@ -33,3 +33,20 @@
 // 프리미티브 타입의 값을 담아서 사용합니다.
 // 고유하고 수정불가능한 값으로 만들어줍니다.
 // 그래서 주로 접근을 제어하는데 쓰는경우가 많았습니다.
+
+- Undefined & Null
+
+* In TypeScript, both undefined and null actually have their type named respectively
+* 둘다 소문자만 존재합니다.
+
+- null in JavaScript
+
+* null 이라는 값으로 할당된 것을 null아록 합니다.
+* 무언가가 있는데, 사용할 준비가 덜 된 상태
+* null 이라는 타입은 null 이라는 값만 가질수 있습니다.
+
+#### Undefined in Javascript
+
+- 무언가가 아예 준비가 안된 상태
+- Object의 property가 없을 때도 undefined 입니다.
+- 런타임에서 typeof 연산자를 이용해서 알아내면, undefined 입니다.
