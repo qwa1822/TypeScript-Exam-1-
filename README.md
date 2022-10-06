@@ -125,3 +125,18 @@ const d=looselyTyped.a.b.c.d;
 - Primitive, Union Type, Tuple, Function
 - 기타 직접 작성해야하는 타입을 다른 이름을 지정할 수 있습니다.
 - 만들어진 타입의 refer로 사용하는 것이지 타입을 만드는것은 아닙니다.
+
+### Class
+
+- class 키워드를 이용하여 클래스를 만들 수 있다.
+- class 이름은 보통 대문자를 이용한다.
+- new를 이용하여 class를 통해 object를 만들 수 있다.
+- contstructor를 이용하여 object를 생성하면서 값을 전달할 수 있다.
+- this 를 이용해서 만들어진 object를 가리킬 수 있다.
+
+# 접근제어자
+
+- 접근제어자 public,private,proctected
+- 설정하지 않으면 public
+- 클래스내부의 모든곳에 (생성자,프로퍼티,메서드) 설정 가능하다.
+- private으로 설정하면 클래스 외부에서 설정할 수 없다.
