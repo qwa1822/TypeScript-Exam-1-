@@ -18,3 +18,4 @@ const bbb=className.getInstance();
 
 console.log(add===bbb);
 
+

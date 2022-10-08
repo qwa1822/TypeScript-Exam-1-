@@ -6,4 +6,3 @@ myStr=str;
 
 // Aliasing Union Type
 
-let person2:string | number=0;
